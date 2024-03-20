@@ -12,6 +12,7 @@ public class StringTemplateFormatter implements ObjectFormatter<String> {
     @Override
     public String format(String raw) throws Exception {
         return String.format(template, raw);
+
     }
 
     @Override
